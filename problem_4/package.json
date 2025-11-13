@@ -1,0 +1,20 @@
+{
+  "name": "sum-to-n",
+  "version": "1.0.0",
+  "description": "Three implementations to sum from 1 to n",
+  "main": "dist/sum_to_n.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/sum_to_n.js",
+    "dev": "ts-node sum_to_n.ts"
+  },
+  "keywords": ["typescript", "algorithm", "sum"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
+
